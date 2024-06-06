@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background: #fc0000;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-left: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .anime-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .anime-item {
+    flex: 0 0 33.33%;
+    padding: 0 10px;
+  }
+  
+  .anime-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .anime-item img:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  footer input,
+  footer textarea,
+  footer button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  footer button {
+    background: #ff4500;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  footer button:hover {
+    background: #ff6347;
+  }
+  
+  .genre-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .genre-list li {
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .genre-list li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .genre-list li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .genre-list li img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .genre-list li h3 {
+    padding: 10px;
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .genre-list li p {
+    padding: 10px;
+    margin: 0;
+  }
+  .genre-list li:nth-child(1) h3 {
+    background-color: #ff4500; 
+    color: #fff;
+  }
+  .genre-list li:nth-child(2) h3 {
+    background-color: #ff69b4; 
+  }
+  .genre-list li:nth-child(3) h3 {
+    background-color: #4682b4; 
+    color: #fff;
+  }
+  .genre-list li:nth-child(4) h3 {
+    background-color: #ffd700; 
+    color: #333;
+  }
+  
